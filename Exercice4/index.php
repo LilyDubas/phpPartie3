@@ -12,13 +12,14 @@ $first = 1;
 <body>
   <div class="jumbotron m-auto text-center">
     <h1>Another series of random numbers</h1>
+    <p>
     <?php
     while ($first <= 10) {
       echo $first . '<br>';
-      $first = $first + ($first / 2);
+      $first += $first / 2;
     }
-
      ?>
+   </p>
   </div>
 </body>
 </html>

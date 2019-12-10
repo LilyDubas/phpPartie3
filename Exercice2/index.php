@@ -13,13 +13,12 @@ $second = 22;
 <body>
   <div class="jumbotron m-auto text-center">
     <h1>some random numbers</h1>
-    <?php
+    <p><?php
     while ($first <= 20) {
     echo $first * $second . '<br>';
     $first++;
     }
-
-     ?>
+     ?></p>
   </div>
 </body>
 </html>
